@@ -556,19 +556,20 @@ services
 }
 
 .backage-image {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
   background-color: var(--primary-color);
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 65px;
-  width: 65px;
 }
 
 .backage img {
-  height: 40px;
-  width: 40px;
+  height: 24px;
+  width: 24px;
+  object-fit: contain;
   filter: var(--filter-white);
 }
 
@@ -618,7 +619,6 @@ team style
 
 .img-container {
   margin-top: 35px;
-  margin-right: 35px;
 
   display: grid;
   gap: 35px;
@@ -632,8 +632,6 @@ team style
   align-items: center;
   flex-direction: column;
   border: 0.5px solid var(--color-dark);
-  height: 500px;
-  width: 400px;
 }
 
 .img-contain img {
@@ -1138,17 +1136,31 @@ input[type="submit"]:hover::after {
   justify-content: center;
   flex-direction: column;
   position: relative;
-  width: 500px;
-  height: 250px;
+  width: 400px;
+  height: 200px;
+  border: 5px solid var(--primary-color);
+  margin-bottom: 350px;
+}
+
+.backage-contact a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  width: 400px;
+  height: 200px;
   border: 5px solid var(--primary-color);
   margin-bottom: 350px;
 }
 
 .box-container-backage {
   display: flex;
-  gap: 150px;
-  margin: 70px -458px;
-  height: 262px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  margin: 0 50px;
 }
 
 .backage-image-contact {
