@@ -101,7 +101,7 @@ a:hover {
   text-decoration: none;
 }
 
-.navbar .contain .navbar-nav li a::after {
+.navbar .contain .navbar-nav li a::after{
   content: '';
   position: absolute;
   width: 100%;
@@ -118,7 +118,8 @@ a:hover {
   color: var(--secondary-color);
 }
 
-.navbar .contain .navbar-nav li a:hover::after {
+.navbar .contain .navbar-nav li a:hover::after ,
+a.active  {
   transform: scaleX(1);
 }
 
