@@ -1,0 +1,1069 @@
+@media (max-width:2560px) and (min-width:1441px) {}
+
+@media (max-width:1440px) and (min-width:1201px) {}
+
+@media (max-width:1200px) and (min-width:1025px) {
+  
+}
+
+@media (max-width:1024px) and (min-width:993px) {
+  .nav-dir {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .navbar .contain .navbar-nav {
+    display: none;
+  }
+
+  .sec,
+  .header,
+  .contact,
+  .testimonials,
+  .contact-style,
+  .sec-counter {
+    padding: 100px 20px 167px;
+  }
+
+  .contact-style {
+    width: 90%;
+  }
+
+  .team {
+    margin-top: 50px;
+  }
+
+  .words-right p,
+  .word-left p {
+    margin: 0px 15px 20px;
+    padding-left: 10px;
+  }
+
+  .word-left {
+    flex: 1;
+    padding: 0px 10px;
+    width: 90%;
+    margin: 3px 47px 10px 0;
+  }
+
+  .why-cho h1,
+  .plane-sec h1,
+  .testimonials .contain h1,
+  .contact-style h1 {
+    font-size: 30px;
+  }
+
+  .backage h2,
+  .img-contain h2,
+  .contact h1,
+  .contact p,
+  .backage-contact h2 {
+    font-size: 20px;
+  }
+
+  .sec p,
+  .plane-sec p,
+  .sec-counter .box a .num,
+  .sec-counter .box a .words,
+  .backage-contact p {
+    font-size: 15px;
+  }
+
+  .backage-image-contact img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .why-cho .words-sec,
+  .img-box,
+  .img-contain {
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 0 30px 0;
+  }
+
+  .portfolio {
+    width: 100%;
+  }
+
+  .sec h1,
+  header .contain h1 {
+    margin: 0 0 30px;
+    font-size: 30px;
+  }
+
+  .sec-counter .box .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .sec-counter .box a img,
+  .img-back-f img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .sec-counter .box a {
+    width: 150px;
+    height: 200px;
+  }
+
+  header .contain .images-contain {
+    gap: 7px;
+  }
+
+  header .contain button,
+  .contact button,
+  .contact-style button {
+    font-size: 15px;
+    width: 150px;
+  }
+
+  .contact-style button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 4px 20px;
+    margin-bottom: 8px;
+  }
+
+  .testimonials .contain {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .backage-contact,
+  .backage-image-contact,
+  .img-back-f {
+    height: 40px;
+    width: 40px;
+    margin-top: 6px;
+  }
+
+  .testimonials .contain .bk-image {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+  }
+
+  .icon-f {
+    margin-top: 630px;
+  }
+}
+
+@media (max-width:992px) and (min-width:769px) {
+  .nav-dir {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .navbar .contain .navbar-nav {
+    display: none;
+  }
+
+  .sec,
+  .header,
+  .contact,
+  .testimonials,
+  .contact-style,
+  .sec-counter {
+    padding: 100px 20px 167px;
+  }
+
+  .contact-style {
+    width: 90%;
+  }
+
+  .team {
+    margin-top: 50px;
+  }
+
+  .words-right p,
+  .word-left p {
+    margin: 0px 15px 20px;
+    padding-left: 10px;
+  }
+
+  .word-left {
+    flex: 1;
+    padding: 0px 10px;
+    width: 90%;
+    margin: 3px 47px 10px 0;
+  }
+
+  .why-cho h1,
+  .plane-sec h1,
+  .testimonials .contain h1,
+  .contact-style h1 {
+    font-size: 30px;
+  }
+
+  .backage h2,
+  .img-contain h2,
+  .contact h1,
+  .contact p,
+  .backage-contact h2 {
+    font-size: 20px;
+  }
+
+  .sec p,
+  .plane-sec p,
+  .sec-counter .box a .num,
+  .sec-counter .box a .words,
+  .backage-contact p {
+    font-size: 15px;
+  }
+
+  .backage-image-contact img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .why-cho .words-sec,
+  .img-box,
+  .img-contain {
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 0 30px 0;
+  }
+
+  .portfolio {
+    width: 100%;
+  }
+
+  .sec h1,
+  header .contain h1 {
+    margin: 0 0 30px;
+    font-size: 30px;
+  }
+
+  .sec-counter .box .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .sec-counter .box a img,
+  .img-back-f img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .sec-counter .box a {
+    width: 150px;
+    height: 200px;
+  }
+
+  header .contain .images-contain {
+    gap: 7px;
+  }
+
+  header .contain button,
+  .contact button,
+  .contact-style button {
+    font-size: 15px;
+    width: 150px;
+  }
+
+  .contact-style button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 4px 20px;
+    margin-bottom: 8px;
+  }
+
+  .testimonials .contain {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .backage-contact,
+  .backage-image-contact,
+  .img-back-f {
+    height: 40px;
+    width: 40px;
+    margin-top: 6px;
+  }
+
+  .testimonials .contain .bk-image {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+  }
+
+  .icon-f {
+    margin-top: 630px;
+  }
+}
+
+@media (max-width:768px) and (min-width:577px) {
+  .nav-dir {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .navbar .contain .navbar-nav {
+    display: none;
+  }
+
+  .sec,
+  .header,
+  .contact,
+  .testimonials,
+  .contact-style,
+  .sec-counter {
+    padding: 100px 20px 167px;
+  }
+
+  .contact-style {
+    width: 90%;
+  }
+
+  .team {
+    margin-top: 50px;
+  }
+
+  .words-right p,
+  .word-left p {
+    margin: 0px 15px 20px;
+    padding-left: 10px;
+  }
+
+  .word-left {
+    flex: 1;
+    padding: 0px 10px;
+    width: 90%;
+    margin: 3px 47px 10px 0;
+  }
+
+  .why-cho h1,
+  .plane-sec h1,
+  .testimonials .contain h1,
+  .contact-style h1 {
+    font-size: 30px;
+  }
+
+  .backage h2,
+  .img-contain h2,
+  .contact h1,
+  .contact p,
+  .backage-contact h2 {
+    font-size: 20px;
+  }
+
+  .sec p,
+  .plane-sec p,
+  .sec-counter .box a .num,
+  .sec-counter .box a .words,
+  .backage-contact p {
+    font-size: 15px;
+  }
+
+  .backage-image-contact img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .why-cho .words-sec,
+  .img-box,
+  .img-contain {
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 0 30px 0;
+  }
+
+  .portfolio {
+    width: 100%;
+  }
+
+  .sec h1,
+  header .contain h1 {
+    margin: 0 0 30px;
+    font-size: 30px;
+  }
+
+  .sec-counter .box .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .sec-counter .box a img,
+  .img-back-f img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .sec-counter .box a {
+    width: 150px;
+    height: 200px;
+  }
+
+  header .contain .images-contain {
+    gap: 7px;
+  }
+
+  header .contain button,
+  .contact button,
+  .contact-style button {
+    font-size: 15px;
+    width: 150px;
+  }
+
+  .contact-style button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 4px 20px;
+    margin-bottom: 8px;
+  }
+
+  .testimonials .contain {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .backage-contact,
+  .backage-image-contact,
+  .img-back-f {
+    height: 40px;
+    width: 40px;
+    margin-top: 6px;
+  }
+
+  .testimonials .contain .bk-image {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+  }
+
+  .icon-f {
+    margin-top: 630px;
+  }
+}
+
+@media (max-width:576px) and (min-width:426px) {
+  .nav-dir {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.navbar .contain .navbar-nav {
+  display: none;
+}
+
+.sec,
+.header,
+.contact,
+.testimonials,
+.contact-style,
+.sec-counter {
+  padding: 100px 20px 167px;
+}
+
+.contact-style {
+  width: 90%;
+}
+
+.team {
+  margin-top: 50px;
+}
+
+.words-right p,
+.word-left p {
+  margin: 0px 15px 20px;
+  padding-left: 10px;
+}
+
+.word-left {
+  flex: 1;
+  padding: 0px 10px;
+  width: 90%;
+  margin: 3px 47px 10px 0;
+}
+
+.why-cho h1,
+.plane-sec h1,
+.testimonials .contain h1,
+.contact-style h1 {
+  font-size: 30px;
+}
+
+.backage h2,
+.img-contain h2,
+.contact h1,
+.contact p,
+.backage-contact h2 {
+  font-size: 20px;
+}
+
+.sec p,
+.plane-sec p,
+.sec-counter .box a .num,
+.sec-counter .box a .words,
+.backage-contact p {
+  font-size: 15px;
+}
+
+.backage-image-contact img {
+  width: 25px;
+  height: 25px;
+}
+
+.why-cho .words-sec,
+.img-box,
+.img-contain {
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 0 30px 0;
+}
+
+.portfolio {
+  width: 100%;
+}
+
+.sec h1,
+header .contain h1 {
+  margin: 0 0 30px;
+  font-size: 30px;
+}
+
+.sec-counter .box .icon {
+  width: 50px;
+  height: 50px;
+}
+
+.sec-counter .box a img,
+.img-back-f img {
+  width: 20px;
+  height: 20px;
+}
+
+.sec-counter .box a {
+  width: 150px;
+  height: 200px;
+}
+
+header .contain .images-contain {
+  gap: 7px;
+}
+
+header .contain button,
+.contact button,
+.contact-style button {
+  font-size: 15px;
+  width: 150px;
+}
+
+.contact-style button {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 4px 20px;
+  margin-bottom: 8px;
+}
+
+.testimonials .contain {
+  flex-direction: column;
+  width: 100%;
+}
+
+.backage-contact,
+.backage-image-contact,
+.img-back-f {
+  height: 40px;
+  width: 40px;
+  margin-top: 6px;
+}
+
+.testimonials .contain .bk-image {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 60px;
+  width: 60px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+
+.icon-f {
+  margin-top: 630px;
+}}
+
+@media (max-width:425px) and (min-width:376px) {
+  .nav-dir {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .navbar .contain .navbar-nav {
+    display: none;
+  }
+
+  .sec,
+  .header,
+  .contact,
+  .testimonials,
+  .contact-style,
+  .sec-counter {
+    padding: 100px 20px 167px;
+  }
+
+  .contact-style {
+    width: 90%;
+  }
+
+  .team {
+    margin-top: 50px;
+  }
+
+  .words-right p,
+  .word-left p {
+    margin: 0px 15px 20px;
+    padding-left: 10px;
+  }
+
+  .word-left {
+    flex: 1;
+    padding: 0px 10px;
+    width: 90%;
+    margin: 3px 47px 10px 0;
+  }
+
+  .why-cho h1,
+  .plane-sec h1,
+  .testimonials .contain h1,
+  .contact-style h1 {
+    font-size: 30px;
+  }
+
+  .backage h2,
+  .img-contain h2,
+  .contact h1,
+  .contact p,
+  .backage-contact h2 {
+    font-size: 20px;
+  }
+
+  .sec p,
+  .plane-sec p,
+  .sec-counter .box a .num,
+  .sec-counter .box a .words,
+  .backage-contact p {
+    font-size: 15px;
+  }
+
+  .backage-image-contact img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .why-cho .words-sec,
+  .img-box,
+  .img-contain {
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 0 30px 0;
+  }
+
+  .portfolio {
+    width: 100%;
+  }
+
+  .sec h1,
+  header .contain h1 {
+    margin: 0 0 30px;
+    font-size: 30px;
+  }
+
+  .sec-counter .box .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .sec-counter .box a img,
+  .img-back-f img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .sec-counter .box a {
+    width: 150px;
+    height: 200px;
+  }
+
+  header .contain .images-contain {
+    gap: 7px;
+  }
+
+  header .contain button,
+  .contact button,
+  .contact-style button {
+    font-size: 15px;
+    width: 150px;
+  }
+
+  .contact-style button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 4px 20px;
+    margin-bottom: 8px;
+  }
+
+  .testimonials .contain {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .backage-contact,
+  .backage-image-contact,
+  .img-back-f {
+    height: 40px;
+    width: 40px;
+    margin-top: 6px;
+  }
+
+  .testimonials .contain .bk-image {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+  }
+
+  .icon-f {
+    margin-top: 630px;
+  }
+}
+
+@media (max-width: 375px) and (min-width: 321px) {
+  .nav-dir {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .navbar .contain .navbar-nav {
+    display: none;
+  }
+
+  .sec,
+  .header,
+  .contact,
+  .testimonials,
+  .contact-style,
+  .sec-counter {
+    padding: 100px 20px 167px;
+  }
+
+  .contact-style {
+    width: 90%;
+  }
+
+  .team {
+    margin-top: 50px;
+  }
+
+  .words-right p,
+  .word-left p {
+    margin: 0px 15px 20px;
+    padding-left: 10px;
+  }
+
+  .word-left {
+    flex: 1;
+    padding: 0px 10px;
+    width: 90%;
+    margin: 3px 47px 10px 0;
+  }
+
+  .why-cho h1,
+  .plane-sec h1,
+  .testimonials .contain h1,
+  .contact-style h1 {
+    font-size: 30px;
+  }
+
+  .backage h2,
+  .img-contain h2,
+  .contact h1,
+  .contact p,
+  .backage-contact h2 {
+    font-size: 20px;
+  }
+
+  .sec p,
+  .plane-sec p,
+  .sec-counter .box a .num,
+  .sec-counter .box a .words,
+  .backage-contact p {
+    font-size: 15px;
+  }
+
+  .backage-image-contact img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .why-cho .words-sec,
+  .img-box,
+  .img-contain {
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 0 30px 0;
+  }
+
+  .portfolio {
+    width: 100%;
+  }
+
+  .sec h1,
+  header .contain h1 {
+    margin: 0 0 30px;
+    font-size: 30px;
+  }
+
+  .sec-counter .box .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .sec-counter .box a img,
+  .img-back-f img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .sec-counter .box a {
+    width: 150px;
+    height: 200px;
+  }
+
+  header .contain .images-contain {
+    gap: 7px;
+  }
+
+  header .contain button,
+  .contact button,
+  .contact-style button {
+    font-size: 15px;
+    width: 150px;
+  }
+
+  .contact-style button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 4px 20px;
+    margin-bottom: 8px;
+  }
+
+  .testimonials .contain {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .backage-contact,
+  .backage-image-contact,
+  .img-back-f {
+    height: 40px;
+    width: 40px;
+    margin-top: 6px;
+  }
+
+  .testimonials .contain .bk-image {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+  }
+
+  .icon-f {
+    margin-top: 630px;
+  }
+}
+
+
+
+
+@media (max-width:320px) {
+
+  .sec-counter,
+  .sec,
+  .header,
+  .contact,
+  .testimonials {
+    padding: 100px 20px 167px;
+  }
+
+  .contact-style {
+    padding: 100px 20px 167px;
+    width: 90%;
+  }
+
+  .navbar .contain .navbar-nav {
+    display: none;
+  }
+
+  .team {
+    margin-top: 50px;
+  }
+
+
+  .words-right p,
+  .word-left p {
+    margin: 0px 15px 20px;
+    padding-left: 10px;
+  }
+
+  p {
+    color: var(--color-dark);
+    font-size: 12px;
+  }
+
+  .word-left {
+    flex: 1;
+    padding: 0px 10px;
+    width: 90%;
+    margin: 3px 47px 10px 0;
+  }
+
+  .why-cho h1,
+  .plane-sec h1,
+  .testimonials .contain h1,
+  .contact-style h1 {
+    font-size: 30px;
+  }
+
+  .backage h2,
+  .img-contain h2,
+  .contact h1,
+  .contact p,
+  .backage-contact h2 {
+    font-size: 20px;
+  }
+
+  .sec-counter .box a .num,
+  .sec-counter .box a .words,
+  .sec p,
+  .plane-sec p,
+  .backage-contact p {
+    font-size: 15px;
+  }
+
+  .backage-image-contact img {
+    width: 25px;
+    height: 25px;
+  }
+
+
+  .why-cho .words-sec {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .img-box,
+  .img-contain {
+    margin: 0 0 30px 0;
+  }
+
+  .portfolio {
+    width: 100%;
+  }
+
+  .nav-dir {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+
+  .sec h1,
+  header .contain h1 {
+    margin: 0 0 30px;
+    font-size: 30px;
+  }
+
+
+  .sec-counter .box .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .sec-counter .box a img,
+  .img-back-f img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .sec-counter .box a {
+    width: 150px;
+    height: 200px;
+  }
+
+  header .contain .images-contain {
+    gap: 7px;
+  }
+
+  header .contain button,
+  .contact button {
+    font-size: 15px;
+    width: 150px;
+  }
+
+  .contact-style button {
+    font-size: 20px;
+    font-weight: 500;
+    width: 150px;
+    padding: 4px 20px;
+    margin-bottom: 8px;
+  }
+
+  .testimonials .contain {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .backage-contact {
+    margin-bottom: 10px;
+  }
+
+  .backage-image-contact,
+  .img-back-f {
+    height: 40px;
+    width: 40px;
+    margin-top: 6px;
+  }
+
+  .testimonials .contain .bk-image {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+  }
+
+  .icon-f {
+    margin-top: 630px;
+  }
+}

@@ -47,9 +47,8 @@ a {
   text-decoration: none;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
+a:hover {
+  text-decoration: none;
 }
 
 /*flex only*/
@@ -58,8 +57,6 @@ a {
   align-content: center;
   align-items: center;
 }
-
-
 
 /*navbar*/
 .navbar {
@@ -88,6 +85,7 @@ a {
 
 .navbar .contain .navbar-nav {
   display: flex;
+  flex-direction: row;
   gap: 20px;
   list-style: none;
   margin: 0;
@@ -131,7 +129,7 @@ header style
 */
 header {
   width: 100%;
-  padding: 300px 0 250px;
+  padding: 150px 0 100px;
   background: url(../images/header/header.webp) center / cover no-repeat;
   position: relative;
   z-index: 9;
@@ -149,50 +147,49 @@ header::after {
 }
 
 header .contain {
-  width: 50%;
-  padding: 200px 0px 150px;
   text-align: center;
-  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
 header .contain h1 {
   font-size: 60px;
   font-weight: 900;
   color: var(--color-white);
-  margin-bottom: 30px;
   text-transform: capitalize;
-  position: absolute;
-  left: 50%;
-  top: 55%;
-  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 484px;
 }
 
 
 header .contain .images-contain {
   gap: 20px;
-  position: absolute;
-  left: 50%;
-  top: 70%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 /* Button styles */
-header .contain button {
+header .contain button{
   font-size: 20px;
   font-weight: 700;
   width: 250px;
   padding: 10px 20px;
-  margin: 2.5px;
-  position: absolute;
-  left: 50%;
-  top: 75%;
-  transform: translateX(-50%);
+  position: relative;
   border-radius: 25px;
   background-color: transparent;
   color: var(--color-white);
   border: 1px solid var(--color-white);
   box-shadow: 0;
   overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .header .contain button::after {
@@ -261,9 +258,9 @@ sec
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: enter;
+  justify-content: center;
   width: 100%;
-  padding: 100px 0 250px;
+  padding: 60px 0 150px;
   position: relative;
   z-index: 9;
 }
@@ -281,7 +278,6 @@ sec
   font-weight: 500;
   line-height: 30px;
   margin: 10px;
-  width: 70%;
   text-align: center;
 }
 
@@ -291,7 +287,7 @@ counter
 
 .sec-counter {
   width: 100%;
-  padding: 300px 0 250px;
+  padding: 150px 0 200px;
   background: url(../images/counter/counter.webp) center / cover no-repeat;
   position: relative;
   z-index: 9;
@@ -310,65 +306,70 @@ counter
   z-index: -1;
 }
 
-.sec-counter .boxes {
+.sec-counter .box {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 200px;
 }
 
-.sec-counter .boxes .box {
+.sec-counter .box a {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
 }
 
-.sec-counter .boxes .box .icon {
+.sec-counter .box  .icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   background-color: var(--primary-color);
   border-radius: 50%;
 }
 
-.sec-counter .boxes .box img {
+.sec-counter  .box a img {
   filter: var(--filter-white);
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
-.sec-counter .boxes .box .num {
+.sec-counter  .box a .num {
   font-size: 40px;
   font-weight: 700;
   margin-top: 10px;
   color: var(--color-white);
 }
 
-.sec-counter .boxes .box .words {
+.sec-counter  .box a .words {
   font-size: 25px;
   font-weight: 500;
   color: var(--color-white);
   text-transform: capitalize;
 }
 
-.sec-counter .boxes .box:hover .icon {
+.sec-counter .box a:hover{
+  border: 1px solid var(--color-white);
+}
+.sec-counter .box a:hover .icon {
   background-color: var(--color-white);
 }
 
-.sec-counter .boxes .box:hover .icon img {
+.sec-counter .box a:hover .icon img {
   filter: var(--filter-blue);
 }
 
-.sec-counter .boxes .box:hover .num {
+.sec-counter .box a:hover .num {
   color: var(--primary-color);
+  text-decoration: none;
 }
 
-.sec-counter .boxes .box:hover .words {
+.sec-counter  .box a:hover .words {
   color: var(--primary-color);
 }
 
@@ -378,9 +379,18 @@ choose sec
 
 .why-cho {
   text-align: center;
-
 }
 
+.why-cho h1 {
+  font-weight: 900;
+  margin-top: 50px;
+}
+
+.words-sec{
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
 .words-right,
 .word-left {
   flex: 1;
@@ -419,7 +429,7 @@ choose sec
   position: absolute;
   top: 95%;
   left: 20%;
-  width: 0;
+  width: 100%;
   height: 10px;
   background-color: var(--transprent-color);
   border-radius: 50px;
@@ -427,7 +437,7 @@ choose sec
 }
 
 .word-left p:hover::after {
-  width: 100%;
+
   left: 20%;
 }
 
@@ -448,7 +458,7 @@ protfolio
   margin-bottom: 20px;
 }
 
-.nav-dir a {
+.nav-dir span a {
   text-decoration: none;
   color: var(--color-white);
   background-color: var(--primary-color);
@@ -466,8 +476,7 @@ protfolio
 }
 
 .gallary {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
 }
 
 .img-box {
@@ -512,7 +521,7 @@ services
 .services {
   width: 100%;
   margin-top: 30px;
-  padding: 160px 0 100px;
+  padding: 130px 0 100px;
   background: url(../images/service/service.webp) center / cover no-repeat;
   position: relative;
   z-index: 9;
@@ -536,15 +545,15 @@ services
 }
 
 .box-container {
-  display: grid;
+  display: flex;
+  flex-direction: row;
   gap: 15px;
-  grid-template-columns: repeat(3, 1fr);
+
 }
 
 .backage {
-  height: 190px;
-  width: 400px;
-  padding: 20px;
+  margin-bottom: 25px;
+  padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -553,6 +562,15 @@ services
   background-color: transparent;
   border: 1px solid var(--primary-color);
   overflow: hidden;
+}
+
+.backage a {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .backage-image {
@@ -587,7 +605,7 @@ services
 
 .backage:hover {
   background-color: var(--primary-color);
-  border: 3px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .backage:hover .backage-image {
@@ -617,15 +635,6 @@ team style
   margin: 100px 0;
 }
 
-.img-container {
-  margin-top: 35px;
-
-  display: grid;
-  gap: 35px;
-  grid-template-columns: repeat(4, 1fr);
-
-}
-
 .img-contain {
   position: relative;
   display: flex;
@@ -650,7 +659,7 @@ team style
 
 .img-contain p {
   text-transform: capitalize;
-  margin-top: 15px;
+  margin-top: 15px auto;
   font-size: 20px;
   font-weight: 500;
 }
@@ -697,12 +706,13 @@ team style
 }
 
 .overlay-content h3 {
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 900;
+  margin-top: 10px;
 }
 
 .overlay-content p {
-  width: 138%;
+  width: 100%;
   color: var(--color-white);
 }
 
@@ -877,7 +887,7 @@ plane style
 
 .price sup,
 .price span {
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 900;
 }
 
@@ -941,11 +951,11 @@ plane style
   left: -100%;
   transition: 0.3s;
   opacity: 0;
+  z-index: -1;
 }
 
 .pricing-card button:hover::after {
   left: 0;
-  z-index: -1;
   opacity: 0.3;
 }
 
@@ -988,9 +998,7 @@ testinomials
   display: flex;
   text-align: center;
   justify-content: center;
-  position: absolute;
-  top: 43%;
-  left: 47.5%;
+  margin: 0 auto;
   height: 60px;
   width: 60px;
   background-color: var(--primary-color);
@@ -1006,7 +1014,7 @@ testinomials
 .testimonials .contain h1 {
   font-size: 40px;
   font-weight: 500;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   letter-spacing: 3px;
   color: var(--color-white);
   text-transform: capitalize;
@@ -1041,9 +1049,7 @@ contact form
 
 .contact-style {
   text-align: center;
-  width: 40%;
-  height: 570px;
-  margin-left: 27%;
+  height: 650px;
   border: 1px solid var(--transprent-color);
   margin-top: 100px;
   padding: 100px 0 0 0;
@@ -1092,7 +1098,7 @@ textarea {
   resize: vertical;
 }
 
-input[type="submit"] {
+.contact-style button {
   border: none;
   border-radius: 50px;
   box-shadow: 0;
@@ -1100,7 +1106,6 @@ input[type="submit"] {
   font-size: 20px;
   font-weight: 700;
   width: 200px;
-  margin: 30px;
   padding: 10px 20px;
   position: relative;
   background-color: var(--primary-color);
@@ -1109,7 +1114,7 @@ input[type="submit"] {
   z-index: 3;
 }
 
-input[type="submit"]::after {
+.contact-style button::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -1120,14 +1125,19 @@ input[type="submit"]::after {
   color: var(--primary-color);
   top: 0;
   left: -100%;
-  transition: 0.3s;
+  transition: all 0.3s linear;
   opacity: 0;
+  z-index: -1;
 }
 
-input[type="submit"]:hover::after {
+.contact-style button:hover::after {
   left: 0;
   z-index: -1;
   opacity: 0.3;
+}
+
+.contact-style .container {
+  margin-top: 100px;
 }
 
 .backage-contact {
@@ -1136,32 +1146,9 @@ input[type="submit"]:hover::after {
   justify-content: center;
   flex-direction: column;
   position: relative;
-  width: 400px;
-  height: 200px;
   border: 5px solid var(--primary-color);
-  margin-bottom: 350px;
 }
 
-.backage-contact a{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: relative;
-  width: 400px;
-  height: 200px;
-  border: 5px solid var(--primary-color);
-  margin-bottom: 350px;
-}
-
-.box-container-backage {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  gap: 10px;
-  margin: 0 50px;
-}
 
 .backage-image-contact {
   background-color: var(--primary-color);
