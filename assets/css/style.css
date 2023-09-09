@@ -83,6 +83,19 @@ a:hover {
   text-transform: capitalize;
 }
 
+.navbar .contain .open-men {
+  background-color: var(--primary-color);
+  width: 100px;
+  height: 30px;
+  border-radius: 25%;
+  border: 2px solid var(--color-white);
+  color: var(--color-white);
+  text-transform: capitalize;
+  font-weight: 700;
+  transform: all .3s linear;
+  visibility: hidden;
+}
+
 .navbar .contain .navbar-nav {
   display: flex;
   flex-direction: row;
@@ -101,7 +114,7 @@ a:hover {
   text-decoration: none;
 }
 
-.navbar .contain .navbar-nav li a::after{
+.navbar .contain .navbar-nav li a::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -118,12 +131,10 @@ a:hover {
   color: var(--secondary-color);
 }
 
-.navbar .contain .navbar-nav li a:hover::after ,
-a.active  {
+.navbar .contain .navbar-nav li a:hover::after,
+a.active {
   transform: scaleX(1);
 }
-
-
 
 /*
 header style
@@ -177,7 +188,7 @@ header .contain .images-contain {
 }
 
 /* Button styles */
-header .contain button{
+header .contain button {
   font-size: 20px;
   font-weight: 700;
   width: 250px;
@@ -324,7 +335,7 @@ counter
   padding: 10px;
 }
 
-.sec-counter .box  .icon {
+.sec-counter .box .icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -334,29 +345,30 @@ counter
   border-radius: 50%;
 }
 
-.sec-counter  .box a img {
+.sec-counter .box a img {
   filter: var(--filter-white);
   width: 30px;
   height: 30px;
 }
 
-.sec-counter  .box a .num {
+.sec-counter .box a .num {
   font-size: 40px;
   font-weight: 700;
   margin-top: 10px;
   color: var(--color-white);
 }
 
-.sec-counter  .box a .words {
+.sec-counter .box a .words {
   font-size: 25px;
   font-weight: 500;
   color: var(--color-white);
   text-transform: capitalize;
 }
 
-.sec-counter .box a:hover{
+.sec-counter .box a:hover {
   border: 1px solid var(--color-white);
 }
+
 .sec-counter .box a:hover .icon {
   background-color: var(--color-white);
 }
@@ -370,7 +382,7 @@ counter
   text-decoration: none;
 }
 
-.sec-counter  .box a:hover .words {
+.sec-counter .box a:hover .words {
   color: var(--primary-color);
 }
 
@@ -387,11 +399,12 @@ choose sec
   margin-top: 50px;
 }
 
-.words-sec{
+.words-sec {
   display: flex;
   align-content: center;
   align-items: center;
 }
+
 .words-right,
 .word-left {
   flex: 1;

@@ -10,6 +10,7 @@
     gap: 20px;
   }
 
+  
   .sec,
   .header,
   .contact,
@@ -27,7 +28,7 @@
   .team {
     margin: 0;
   }
-  
+
   .words-right p,
   .word-left p {
     margin: 0px 15px 20px;
@@ -157,6 +158,10 @@
   .nav-dir {
     flex-wrap: wrap;
     gap: 20px;
+  }
+
+  .navbar .contain .open-men {
+    visibility: visible;
   }
 
   .navbar .contain .navbar-nav {
@@ -465,6 +470,10 @@
     gap: 20px;
   }
 
+  .navbar .contain .open-men {
+    visibility: visible;
+  }
+
   .navbar .contain .navbar-nav {
     display: none;
   }
@@ -621,6 +630,10 @@
     display: none;
   }
 
+  .navbar .contain .open-men {
+    visibility: visible;
+  }
+  
   .sec,
   .header,
   .contact,
@@ -773,6 +786,10 @@
     display: none;
   }
 
+  .navbar .contain .open-men {
+    visibility: visible;
+  }
+
   .sec,
   .header,
   .contact,
@@ -916,6 +933,9 @@
 }
 
 @media (max-width:320px) {
+  .navbar .contain .open-men {
+    visibility: visible;
+  }
 
   .sec-counter,
   .sec,
