@@ -10,14 +10,31 @@
     gap: 20px;
   }
 
-  
+
+  .sub-header h1 {
+    font-size: 30px;
+  }
+
+  .sub-header p {
+    font-size: 16px;
+  }
+
+  .pricing-card {
+    max-width: 100%;
+  }
+
+  .plane-sec {
+    padding-top: 0;
+  }
+
+
   .sec,
   .header,
   .contact,
   .testimonials,
   .contact-style,
-  .sec-counter 
-  ,.plane-sec{
+  .sec-counter,
+  .plane-sec {
     padding: 100px 20px 167px;
   }
 
@@ -127,8 +144,8 @@
     width: 100%;
   }
 
-  .backage-contact{
-    margin-top: 6px; 
+  .backage-contact {
+    margin-top: 6px;
   }
 
   .backage-image-contact,
@@ -160,8 +177,27 @@
     gap: 20px;
   }
 
-  .navbar .contain .open-men {
+
+  .sub-header h1 {
+    font-size: 30px;
+  }
+
+  .sub-header p {
+    font-size: 16px;
+  }
+
+  .pricing-card {
+    max-width: 100%;
+  }
+
+  .plane-sec {
+    padding-top: 0;
+  }
+
+
+  .dropdown {
     visibility: visible;
+    display: inline-block;
   }
 
   .navbar .contain .navbar-nav {
@@ -213,7 +249,7 @@
     font-size: 20px;
   }
 
-  
+
   .sec p,
   .plane-sec p,
   .sec-counter .box a .num,
@@ -284,10 +320,10 @@
     width: 100%;
   }
 
-  .backage-contact{
-    margin-top: 6px; 
+  .backage-contact {
+    margin-top: 6px;
   }
-  
+
   .backage-image-contact,
   .img-back-f {
     height: 40px;
@@ -317,6 +353,11 @@
     gap: 20px;
   }
 
+  .dropdown {
+    visibility: visible;
+    display: inline-block;
+  }
+
   .navbar .contain .navbar-nav {
     display: none;
   }
@@ -436,11 +477,11 @@
     width: 100%;
   }
 
-  .backage-contact{
-    margin-top: 6px; 
+  .backage-contact {
+    margin-top: 6px;
   }
-  
- 
+
+
   .backage-image-contact,
   .img-back-f {
     height: 40px;
@@ -470,8 +511,26 @@
     gap: 20px;
   }
 
-  .navbar .contain .open-men {
+
+  .sub-header h1 {
+    font-size: 30px;
+  }
+
+  .sub-header p {
+    font-size: 16px;
+  }
+
+  .pricing-card {
+    max-width: 100%;
+  }
+
+  .plane-sec {
+    padding-top: 0;
+  }
+
+  .dropdown {
     visibility: visible;
+    display: inline-block;
   }
 
   .navbar .contain .navbar-nav {
@@ -593,10 +652,10 @@
     width: 100%;
   }
 
-  .backage-contact{
-    margin-top: 6px; 
+  .backage-contact {
+    margin-top: 6px;
   }
-  
+
   .backage-image-contact,
   .img-back-f {
     height: 40px;
@@ -618,12 +677,38 @@
   .icon-f {
     margin-top: 630px;
   }
+
+  .dropdown {
+    visibility: visible;
+    display: inline-block;
+  }
 }
 
 @media (max-width:425px) and (min-width:376px) {
   .nav-dir {
     flex-wrap: wrap;
     gap: 20px;
+  }
+
+  .sub-header h1 {
+    font-size: 30px;
+  }
+
+  .sub-header p {
+    font-size: 16px;
+  }
+
+  .pricing-card {
+    max-width: 100%;
+  }
+
+  .plane-sec {
+    padding-top: 0;
+  }
+
+  .dropdown {
+    visibility: visible;
+    display: inline-block;
   }
 
   .navbar .contain .navbar-nav {
@@ -633,7 +718,7 @@
   .navbar .contain .open-men {
     visibility: visible;
   }
-  
+
   .sec,
   .header,
   .contact,
@@ -749,10 +834,10 @@
     width: 100%;
   }
 
-  .backage-contact{
-    margin-top: 6px; 
+  .backage-contact {
+    margin-top: 6px;
   }
-  
+
   .backage-image-contact,
   .img-back-f {
     height: 40px;
@@ -782,12 +867,34 @@
     gap: 20px;
   }
 
+
+  .sub-header h1 {
+    font-size: 30px;
+  }
+
+  .sub-header p {
+    font-size: 16px;
+  }
+
+  .pricing-card {
+    max-width: 100%;
+  }
+
+  .plane-sec {
+    padding-top: 0;
+  }
+
   .navbar .contain .navbar-nav {
     display: none;
   }
 
   .navbar .contain .open-men {
     visibility: visible;
+  }
+
+  .dropdown {
+    visibility: visible;
+    display: inline-block;
   }
 
   .sec,
@@ -905,10 +1012,10 @@
     width: 100%;
   }
 
-  .backage-contact{
-    margin-top: 6px; 
+  .backage-contact {
+    margin-top: 6px;
   }
-  
+
   .backage-image-contact,
   .img-back-f {
     height: 40px;
@@ -933,9 +1040,28 @@
 }
 
 @media (max-width:320px) {
-  .navbar .contain .open-men {
+  .dropdown {
     visibility: visible;
+    display: inline-block;
   }
+
+
+  .sub-header h1 {
+    font-size: 30px;
+  }
+
+  .sub-header p {
+    font-size: 16px;
+  }
+
+  .pricing-card {
+    max-width: 100%;
+  }
+
+  .plane-sec {
+    padding-top: 0;
+  }
+
 
   .sec-counter,
   .sec,
@@ -957,7 +1083,6 @@
   .team {
     margin-top: 50px;
   }
-
 
   .words-right p,
   .word-left p {
@@ -1078,8 +1203,8 @@
     margin-bottom: 10px;
   }
 
-  .backage-contact{
-    margin-top: 6px; 
+  .backage-contact {
+    margin-top: 6px;
   }
 
   .backage-image-contact,
